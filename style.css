@@ -51,6 +51,11 @@ button:hover {
   color: lightskyblue;
   transition-duration: 0.3s;
 }
+button:not(:hover) {
+  background-color: lightskyblue;
+  color: white;
+  transition-duration: 0.3s;
+}
 .wrapper-images-grid {
   width: 100%;
   display: flex;
