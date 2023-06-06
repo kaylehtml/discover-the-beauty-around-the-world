@@ -2,6 +2,14 @@
   padding: 0;
   margin: 0;
 }
+body {
+  background-color: rgb(217, 239, 253);
+}
+h1,
+p {
+  font-family: "Raleway", sans-serif;
+  color: lightskyblue;
+}
 
 .wrapper {
   width: 100%;
@@ -31,11 +39,17 @@
 button {
   width: 60px;
   height: 30px;
-  background-color: black;
+  background-color: lightskyblue;
   color: white;
   border-radius: 5px;
+  border: 2px solid white;
   padding: 5px;
   cursor: pointer;
+}
+button:hover {
+  background-color: white;
+  color: lightskyblue;
+  transition-duration: 0.3s;
 }
 .wrapper-images-grid {
   width: 100%;
@@ -43,6 +57,7 @@ button {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  padding-top: 20px;
 }
 .images-grid {
   width: 75%;
